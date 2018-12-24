@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1540128372 source:c:\users\rajat\desktop\cpp codes\hackerrank\contest\hourrank 30\hr_stringstream\main.cpp
+	<iostream>
+	<sstream>
+	<vector>
+

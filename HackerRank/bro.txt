@@ -1,0 +1,28 @@
+180+193.92+204.12+218.12+187.98=984.14
+
+
+
+
+
+arr.at(0)=arr.at(1)=false;
+
+		for(int i=2;i<=up;i++)
+			arr.push_back(true);
+			//			arr[i]=true;
+
+		for(int i=2;i<sqrt(up);i++) {
+				if(arr.at(i)==true){
+					for(int j=(i*i);j<=up;j+=i){
+						arr.push_back(false);
+					}
+				}
+
+			}
+
+		for(int i=low;i<=up;i++)
+		{
+			if(arr.at(i)==true)
+				cout<<i<<endl;
+		}
+
+	}

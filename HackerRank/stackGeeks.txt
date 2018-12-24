@@ -1,0 +1,55 @@
+#include <iostream>
+using namespace std;
+
+int top=-1;
+long long int a[1000000];
+
+void push(int ip){
+    
+    a[++top]=ip;
+    
+    return;
+    
+}
+
+void pop()
+{
+    if(top == -1)
+        return;
+    --top;
+}
+
+void display(){
+    if(top == -1){
+        cout<<"-1"<<endl;
+        return;
+        
+    }        
+    cout<<a[top]<<endl;
+}
+int main() {
+	int t;
+	cin>>t;
+	
+	while(t--){
+	    int queries;
+	    cin>>queries;
+    	while(queries--){
+    	    int ch,ip;
+    	    cin >>ch;
+    	    switch(ch){
+    	        case 1:cin>>ip;
+    	                push(ip);
+    	                break;
+    	        case 2:
+    	                pop();
+    	                break;
+    	        case 3:
+    	                display();
+    	                break;
+    	    }
+    	}
+	}
+	return 0;
+}
+

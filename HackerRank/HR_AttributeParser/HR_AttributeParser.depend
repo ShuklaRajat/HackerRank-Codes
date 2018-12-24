@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1539945636 source:c:\users\rajat\desktop\cpp codes\hackerrank\contest\hourrank 30\hr_attributeparser\main.cpp
+	<cmath>
+	<cstdio>
+	<vector>
+	<iostream>
+	<algorithm>
+	<strings.h>
+
